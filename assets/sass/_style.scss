@@ -1,8 +1,80 @@
-.nav-wrapper {
-	width: 100%;
-	text-align: center;
-	li {
-	  	float: none;
-	    display: inline-block;
+
+body{
+	color: $color3;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: $color2;
+	font-size: $h1_size;
+}
+h2{
+	color: $color1;
+	font-size: $h2_size;
+}
+h3{
+	font-size: $h3_size;
+	font-weight: bold;
+}
+
+#header{
+	background-image: url("../assets/img/bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	
+	nav{
+	background-color: transparent;
+	-webkit-box-shadow: none;
+		ul li a{
+			color: $color2;
+			font-weight: bold;
+		}
+	}
+	p{
+		color: $color2;
+		font-weight: bold;
+	}
+}
+
+#second-section{
+	@include paddingSections();
+	background-color: $color2;
+	img{
+		width: 90%;
+		height: auto;
+	}
+}
+
+#third-section{
+	@include paddingSections();
+}
+
+#fourth-section{
+	@include paddingSections();
+	background-color: $color2;
+}
+
+#fifth-section{
+	@include paddingSections();
+	h2{
+		color: $color2;
+	}
+}
+
+#sixth-section{
+	@include paddingSections();
+	background-color: $color2;
+	p{
+		text-transform: uppercase;
+	}
+}
+
+#footer{
+	color: $color3;
+	background-color: white;
+	span{
+		color: $color1;
 	}
 }

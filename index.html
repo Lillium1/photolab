@@ -3,34 +3,134 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Photolab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- MATERIALIZE -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<!-- ICONOS MATERIALIZE -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- TIPOGRAFIA -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- CSS -->
 	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-	<section>
+	
+		
+	<header id="header" style="background-image: url(assets/img/bg1.jpg);">
 		<div class="navbar-fixed">
 			<nav>
-				<div class="container">
-					<div class="nav-wrapper">
-						<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-						<ul id="nav-mobile" class="left hide-on-med-and-down">
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">PHOTOAPP</a></li>
-							<li><a href="#">DESIGN</a></li>
-							<li><a href="#">DOWNLOAD</a></li>
-						</ul>
-					</div>
+				<div class="nav-wrapper brand-logo center">
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">PHOTOAPP</a></li>
+						<li><a href="#">DESIGN</a></li>
+						<li><a href="#">DOWNLOAD</a></li>
+					</ul>
 				</div>
 			</nav>
 		</div>
-		<ul id="slide-out" class="side-nav">
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">PHOTOAPP</a></li>
-			<li><a href="#">DESIGN</a></li>
-			<li><a href="#">DOWNLOAD</a></li>
-		</ul>
+		<div class="center-align">
+			<h1>YOUR LIFE, A PHOTO</h1>
+			<p>print your life in a simple photo</p>
+			<a class="waves-effect waves-light btn">GET STARTED</a>
+		</div>
+	</header>
+
+	<section id="second-section">
+		<div class="container">
+			<div class="row">
+				<div class="col xl6 l6 m12 s12">
+					<h2>RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, odit magni dolorem ipsa, voluptates quibusdam voluptate ratione exercitationem ullam voluptatum provident <b>ipsam veniam id</b>! Minima voluptatibus ab aspernatur, fugit earum!</p>
+					<a class="waves-effect waves-light btn">GET STARTED</a>
+				</div>
+				<div class="col xl6 l6 m12 s12">
+					<img src="assets/img/hand.png" alt="">
+				</div>
+			</div>
+		</div>
 	</section>
 
+	<section id="third-section">
+		<div class="container">
+			<div class="row">
+				<div class="col xl6 l6 m12 s12">
+					<img src="assets/img/phone.png" alt="Phone">
+				</div>
+				<div class="col xl6 l6 m12 s12">
+					<h2>DESIGN</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam, excepturi minima, provident fugiat magni doloribus distinctio, eos praesentium, molestiae ipsa! Aut <b>repellendus odio itaque</b> eum, alias cupiditate dignissimos provident.</p>
+					<a class="waves-effect waves-light btn">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section id="fourth-section">
+		<div class="container">
+			<div class="row">
+				<div class="col xl4 l4 m12 s12 center-align">
+					<h3>OUR COMMUNITY</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col xl4 l4 m12 s12">
+					<img class="responsive-img" src="assets/img/car.jpg" alt="Car">
+				</div>
+				<div class="col xl4 l4 m12 s12">
+					<img class="responsive-img" src="assets/img/leaf.jpg" alt="Leaf">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fifth-section">
+		<div class="container">
+			<div class="row">
+				<div class="col xl12 l12 m12 s12">
+					<h2>SUBSCRIBE TO US COMMUNITY</h2>
+				</div>
+			</div>
+			<div class="row">
+				<form action="#" class="col xl12 l12 m12 s12">
+					<div class="file-field input-field">
+						<input id="email" class="file-path validate" type="email">
+						<label for="email">YOUR EMAIL</label>
+						<a class="waves-effect waves-light btn"><i class="material-icons">check</i></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section id="sixth-section">
+		<div class="container">
+			<div class="row">
+				<div class="col xl12 l12 m12 s12 center-align">
+					<h2>DOWNLOAD IT</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga deleniti dolores earum sunt tempore asperiores culpa similique excepturi error ad ea laboriosam illum, rem, consectetur nihil modi molestiae, laborum illo.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col xl12 l12 m12 s12 center-align">
+					<a class="waves-effect waves-light btn">APPLE STORE</a>
+					<a class="waves-effect waves-light btn">PLAY STORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer" class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col xl12 l12 m12 s12">
+					<h6>CREDITS <span>|</span> PRIVACY <span>|</span> OUR TEAMS</h6>
+				</div>
+				<div class="col xl12 l12 m12 s12">
+					<small>Copyright by phototime - all right reserved</small>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="dist/js/script.js"></script>
 </body>
 </html>
